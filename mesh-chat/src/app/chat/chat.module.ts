@@ -5,8 +5,8 @@ import { ChatRoutingModule } from './chat-routing.module';
 import { ChatHomeComponent } from './compoennt/chat-home/chat-home.component';
 
 @NgModule({
-  declarations: [],
-  imports: [CommonModule, ChatRoutingModule, ChatHomeComponent],
+  declarations: [ChatHomeComponent],
+  imports: [CommonModule, ChatRoutingModule],
   exports: [ChatHomeComponent],
 })
 export class ChatModule { }
