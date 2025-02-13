@@ -1,0 +1,14 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    height: 100%;
+
+    .list-home {
+        flex-basis: 30%;
+    }
+
+    .chat-home {
+        flex-basis: 70%;
+    }
+}
