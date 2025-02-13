@@ -3,12 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { CommunicationRoutingModule } from './communication-routing.module';
 
-
 @NgModule({
   declarations: [],
-  imports: [
-    CommonModule,
-    CommunicationRoutingModule
-  ]
+  imports: [CommonModule, CommunicationRoutingModule],
 })
-export class CommunicationModule { }
+export class CommunicationModule {}
