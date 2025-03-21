@@ -10,6 +10,7 @@ import { ListHeaderFilterComponent } from './component/list-header-filter/list-h
 import { ListHeaderComponent } from './component/list-header/list-header.component';
 import { ListBodyComponent } from './component/list-body/list-body.component';
 import { ListBodyChatComponent } from './component/list-body-chat/list-body-chat.component';
+import { MatButton, MatIconButton } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,14 @@ import { ListBodyChatComponent } from './component/list-body-chat/list-body-chat
     ListBodyComponent,
     ListBodyChatComponent,
   ],
-  imports: [CommonModule, ListRoutingModule, MatIconModule, MatInputModule],
+  imports: [
+    CommonModule,
+    ListRoutingModule,
+    MatIconModule,
+    MatInputModule,
+    MatIconButton,
+    MatButton,
+  ],
   exports: [ListHomeComponent],
 })
-export class ListModule { }
+export class ListModule {}
